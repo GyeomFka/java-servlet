@@ -16,7 +16,7 @@ dependencies {
     implementation 'org.slf4j:slf4j-api:2.1.0-alpha1'
     implementation 'com.google.guava:guava:33.4.0-jre'
     implementation group:'javax.servlet', name:'javax.servlet-api', version:'3.1.0'
-    runtimeOnly 'com.h2database:h2'
+    runtimeOnly 'com.h2database:h2:2.2.224'
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
