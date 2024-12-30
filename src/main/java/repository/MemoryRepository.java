@@ -16,11 +16,7 @@ public class MemoryRepository {
         return userList;
     }
 
-    public static void addUser(User user) {
-        userList.add(user);
-    }
-
-    public static User findUserById(String userId) {
+        public static User findUserById(String userId) {
         return userList.stream()
                 .filter(user -> userId.equals(user.getUserId()))
                 .findFirst()
